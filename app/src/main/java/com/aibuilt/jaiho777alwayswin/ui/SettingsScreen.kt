@@ -1,3 +1,4 @@
+// The settings page: every switch, both sliders, the bet field and the game address.
 package com.aibuilt.jaiho777alwayswin.ui
 
 import androidx.compose.foundation.layout.Arrangement
@@ -107,7 +108,7 @@ fun SettingsScreen(vm: MainViewModel, onBack: () -> Unit) {
                     Text("Game address", style = MaterialTheme.typography.titleMedium)
                     OutlinedTextField(
                         value = config.gameUrl,
-                        onValueChange = vm::setGameUrl,
+                        onValueChange = { text -> vm.setGameUrl(text) },
                         singleLine = true,
                         modifier = Modifier.fillMaxWidth(),
                         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Uri)
@@ -116,8 +117,8 @@ fun SettingsScreen(vm: MainViewModel, onBack: () -> Unit) {
             }
 
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                Button(onClick = vm::resetSettings) { Text("Reset all") }
-                Button(onClick = vm::clearLog) { Text("Clear log") }
+                Button(onClick = { vm.resetSettings() }) { Text("Reset all") }
+                Button(onClick = { vm.clearLog() }) { Text("Clear log") }
             }
 
             Text(

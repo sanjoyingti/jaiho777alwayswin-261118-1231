@@ -1,4 +1,4 @@
-=== ABOUT: Carries the saved first-run notice through to the screen and lets it be dismissed for good ===
+// Holds the settings, the live log and the patch status for the screens.
 package com.aibuilt.jaiho777alwayswin.viewmodel
 
 import android.app.Application

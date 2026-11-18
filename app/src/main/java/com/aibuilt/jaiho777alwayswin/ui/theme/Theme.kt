@@ -1,4 +1,4 @@
-=== ABOUT: Fixed the colour order so the gold and ink colours are ready before the light/dark themes are built ===
+// Light and dark gold/ink colours plus the app theme wrapper.
 package com.aibuilt.jaiho777alwayswin.ui.theme
 
 import android.app.Activity

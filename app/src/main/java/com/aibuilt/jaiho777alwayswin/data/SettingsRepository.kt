@@ -1,4 +1,4 @@
-=== ABOUT: Adds a saved flag so the "uninstall the original first" notice shows once and stays dismissed ===
+// Saves every switch, multiplier and address, so choices survive a restart.
 package com.aibuilt.jaiho777alwayswin.data
 
 import android.content.Context
