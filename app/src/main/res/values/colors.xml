@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="awp_ink">#0B0E14</color>
+    <color name="awp_surface">#141A24</color>
+    <color name="awp_gold">#FFD54A</color>
+    <color name="awp_green">#39D98A</color>
+    <color name="awp_red">#FF6B6B</color>
+</resources>
